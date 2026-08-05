@@ -366,20 +366,6 @@ p[b-n73f0pdw3v] {
     border-radius: 20px;
 }
 
-.pop-button h4[b-n73f0pdw3v] {
-    display: inline-block;
-    background-color: #33c1cf;
-    font-size: 13px !important;
-    padding: 12px 18px;
-    color: #fff;
-    font-weight: 400 !important;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
 /* --------------------------------
    Header / Navigation
 -------------------------------- */
@@ -1148,46 +1134,68 @@ p[b-n73f0pdw3v] {
     border-radius: 20px;
 }
 
+/* Contact Popup */
+/* Contact Popup */
 .pop[b-n73f0pdw3v] {
     z-index: 99999;
-    text-align: center;
-    padding: 30px;
-    display: none;
     position: fixed;
     width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
-    box-shadow: 0px 0px 15px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow-y: auto;
 }
 
     .pop #contact[b-n73f0pdw3v] {
-        z-index: 99999;
-        position: fixed;
-        top: 25%;
-        left: 20%;
-        right: 20%;
-    }
-
-    .pop span[b-n73f0pdw3v] {
-        z-index: 999;
         position: relative;
-        margin-bottom: 20px;
-        cursor: pointer;
-        width: 44px;
-        height: 44px;
-        display: inline-block;
-        line-height: 44px;
-        color: #fff;
-        text-align: center;
-        background-color: #33c1cf;
+        width: 100%;
+        max-width: 500px;
+        z-index: 999999;
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
     }
 
-        .pop span:hover[b-n73f0pdw3v] {
-            background-color: #596065;
-            transition: all 0.5s;
+        .pop #contact .row[b-n73f0pdw3v] {
+            width: 100%;
         }
+
+        .pop #contact fieldset[b-n73f0pdw3v] {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .pop #contact input[b-n73f0pdw3v],
+        .pop #contact textarea[b-n73f0pdw3v] {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .pop #contact button[b-n73f0pdw3v] {
+            width: 100%;
+            padding: 14px 20px;
+            font-size: 16px;
+            background-color: #f7c552;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+            .pop #contact button:hover[b-n73f0pdw3v] {
+                background-color: #e0b04a;
+            }
 
 /* --------------------------------
    Map
