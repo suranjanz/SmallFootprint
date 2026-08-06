@@ -1534,3 +1534,333 @@ footer[b-n73f0pdw3v] {
             border-right: none;
         }
 }
+/* /Pages/UserComponent.razor.rz.scp.css */
+/* UserCRUDPanel.razor.css */
+
+/* --------------------------------
+   Header Row
+-------------------------------- */
+.header-row[b-q9am2i384l] {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 18px;
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 2px solid #33c1cf;
+    border-radius: 8px 8px 0 0;
+    gap: 10px;
+}
+
+.row-top[b-q9am2i384l] {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.title-group[b-q9am2i384l] {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+    .title-group h3[b-q9am2i384l] {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: #333;
+    }
+
+.user-meta-right[b-q9am2i384l] {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.user-display[b-q9am2i384l] {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    background: #f0f0f0;
+    padding: 4px 12px;
+    border-radius: 15px;
+}
+
+.header-badge[b-q9am2i384l] {
+    display: inline-flex;
+    align-items: center;
+}
+
+.edge-btn-left[b-q9am2i384l] {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+    .edge-btn-left .btn[b-q9am2i384l] {
+        font-size: 13px;
+        padding: 6px 14px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .edge-btn-left .btn-success[b-q9am2i384l] {
+        background: #28a745;
+        color: #fff;
+    }
+
+        .edge-btn-left .btn-success:hover[b-q9am2i384l] {
+            background: #218838;
+        }
+
+    .edge-btn-left .btn-danger[b-q9am2i384l] {
+        background: #dc3545;
+        color: #fff;
+    }
+
+        .edge-btn-left .btn-danger:hover[b-q9am2i384l] {
+            background: #c82333;
+        }
+
+.btn-guest[b-q9am2i384l] {
+    background: #f7c552;
+    color: #333;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .btn-guest:hover[b-q9am2i384l] {
+        background: #e0b04a;
+    }
+
+/* --------------------------------
+   User CRUD Workspace
+-------------------------------- */
+.user-crud-workspace[b-q9am2i384l] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 16px 18px 20px;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* --------------------------------
+   User Editor Subcard
+-------------------------------- */
+.user-editor-subcard[b-q9am2i384l] {
+    flex: 1 1 280px;
+    background: #fff;
+    padding: 16px 18px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eee;
+}
+
+    .user-editor-subcard h6[b-q9am2i384l] {
+        margin: 0 0 12px 0;
+        font-size: 15px;
+        font-weight: 600;
+        color: #333;
+    }
+
+.form-input-sm[b-q9am2i384l] {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+    .form-input-sm:focus[b-q9am2i384l] {
+        border-color: #33c1cf;
+        outline: none;
+    }
+
+.action-row[b-q9am2i384l] {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+    .action-row .btn[b-q9am2i384l] {
+        padding: 6px 16px;
+        border: none;
+        border-radius: 15px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .action-row .btn-success[b-q9am2i384l] {
+        background: #28a745;
+        color: #fff;
+    }
+
+        .action-row .btn-success:hover[b-q9am2i384l] {
+            background: #218838;
+        }
+
+    .action-row .btn-secondary[b-q9am2i384l] {
+        background: #6c757d;
+        color: #fff;
+    }
+
+        .action-row .btn-secondary:hover[b-q9am2i384l] {
+            background: #5a6268;
+        }
+
+    .action-row .btn-primary[b-q9am2i384l] {
+        background: #33c1cf;
+        color: #fff;
+    }
+
+        .action-row .btn-primary:hover[b-q9am2i384l] {
+            background: #2a9aa8;
+        }
+
+    .action-row .btn-danger[b-q9am2i384l] {
+        background: #dc3545;
+        color: #fff;
+    }
+
+        .action-row .btn-danger:hover[b-q9am2i384l] {
+            background: #c82333;
+        }
+
+/* --------------------------------
+   User Profiles List
+-------------------------------- */
+.user-profiles-list[b-q9am2i384l] {
+    flex: 2 1 400px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+    .user-profiles-list li[b-q9am2i384l] {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 14px;
+        background: #fff;
+        border-radius: 6px;
+        margin-bottom: 6px;
+        border: 1px solid #f0f0f0;
+        transition: background 0.2s;
+    }
+
+        .user-profiles-list li:hover[b-q9am2i384l] {
+            background: #f8f9fa;
+        }
+
+.user-row-meta[b-q9am2i384l] {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.username-clickable[b-q9am2i384l] {
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+    .username-clickable:hover[b-q9am2i384l] {
+        color: #33c1cf;
+    }
+
+.role-pill[b-q9am2i384l] {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 12px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+    .role-pill.general[b-q9am2i384l] {
+        background: #e9ecef;
+        color: #495057;
+    }
+
+    .role-pill.administrator[b-q9am2i384l] {
+        background: #cce5ff;
+        color: #004085;
+    }
+
+    .role-pill.godess[b-q9am2i384l] {
+        background: #f7c552;
+        color: #333;
+    }
+
+/* --------------------------------
+   Status Bar
+-------------------------------- */
+.status-bar[b-q9am2i384l] {
+    padding: 10px 18px;
+    background: rgba(255, 255, 255, 0.95);
+    border-top: 1px solid #eee;
+    border-radius: 0 0 8px 8px;
+    margin-top: 4px;
+}
+
+.status-text[b-q9am2i384l] {
+    font-size: 14px;
+    color: #555;
+}
+
+/* --------------------------------
+   Responsive
+-------------------------------- */
+@media (max-width: 768px) {
+    .header-row[b-q9am2i384l] {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .user-meta-right[b-q9am2i384l] {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .edge-btn-left[b-q9am2i384l] {
+        flex-wrap: wrap;
+    }
+
+    .user-crud-workspace[b-q9am2i384l] {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .user-editor-subcard[b-q9am2i384l] {
+        flex: 1 1 auto;
+    }
+
+    .user-profiles-list[b-q9am2i384l] {
+        flex: 1 1 auto;
+        max-height: 250px;
+    }
+
+        .user-profiles-list li[b-q9am2i384l] {
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+    .title-group h3[b-q9am2i384l] {
+        font-size: 16px;
+    }
+}
