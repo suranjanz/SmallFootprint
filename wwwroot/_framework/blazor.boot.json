@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SmallFootprint",
   "resources": {
-    "hash": "sha256-yBeyXMx2EQhl2Zoyk6HV2FO7gqWJdZiDeaSj8Dijc6Q=",
+    "hash": "sha256-M2k6zH9oHzIQPZC8Y13udK0im4uEbcG5O1AgvpTeRXo=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.udlfmhq6px.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.omk86piz71.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -18,7 +18,7 @@
       "Microsoft.JSInterop.4tinb09m1c.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.p4lc5p5lzb.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
       "SmallFootprint.Shared.f1c0usn0nu.wasm": "SmallFootprint.Shared.wasm",
-      "SmallFootprint.elv11778d4.wasm": "SmallFootprint.wasm",
+      "SmallFootprint.priaxirsgy.wasm": "SmallFootprint.wasm",
       "System.Collections.Concurrent.zqv4jint5h.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.Immutable.wgbmyge0nl.wasm": "System.Collections.Immutable.wasm",
       "System.Collections.NonGeneric.yirz60no0r.wasm": "System.Collections.NonGeneric.wasm",
@@ -86,7 +86,7 @@
       "Microsoft.JSInterop.4tinb09m1c.wasm": "sha256-CEaTpEhBuuD/KoZ7LAjkkaWgCdRhZP6G+s5xBar67PQ=",
       "Microsoft.JSInterop.WebAssembly.p4lc5p5lzb.wasm": "sha256-B1EH1btmRMSTcDqhY2C1HasoNTN2oIJBq67kZiSHqb0=",
       "SmallFootprint.Shared.f1c0usn0nu.wasm": "sha256-DYUbxWeGzA3aSjQ4TvAUpJ7yU7hVDFs2FL9C/ny5YCw=",
-      "SmallFootprint.elv11778d4.wasm": "sha256-zhwi1yF3S93lOdvNtXkyxX04wBJDlZ1D1Mdzwu+gV7I=",
+      "SmallFootprint.priaxirsgy.wasm": "sha256-hXZyNZrJ9UcHxEyTlbEdNk3xRHMRWRU7ohgUbcI5P+k=",
       "System.Collections.Concurrent.zqv4jint5h.wasm": "sha256-u6SaV2DJ+KgLT79S0d/3nwkJMICDi/2B2IQzgC6aSEQ=",
       "System.Collections.Immutable.wgbmyge0nl.wasm": "sha256-cJqg80d7tmrVl6Ez2qnOfxfeniTpJFZixV5DM1QSe3Y=",
       "System.Collections.NonGeneric.yirz60no0r.wasm": "sha256-5lPAu1og9xmBuU5OsiUaH8HsOKjJk8a1tLOue+ek0MM=",
