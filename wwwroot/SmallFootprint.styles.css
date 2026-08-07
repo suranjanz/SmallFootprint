@@ -1538,29 +1538,30 @@ footer[b-n73f0pdw3v] {
 /* ===== SYNC CONTROLS - SINGLE LINE COMPACT ===== */
 .blog-sync-controls[b-n73f0pdw3v] {
     margin: 20px auto 30px auto;
-    padding: 6px 16px;
-    background: #f5f5f5;
+    padding: 2px 2px;
+    background: #f4dc4f;
     border-radius: 8px;
     border: 1px solid #e0e0e0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     max-width: 900px;
-    min-height: 40px;
+    min-height: 30px;
 }
 
 .sync-buttons[b-n73f0pdw3v] {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     flex-shrink: 0;
 }
 
 .btn-refresh[b-n73f0pdw3v],
-.btn-commit[b-n73f0pdw3v] {
-    background: #6c757d;
+.btn-commit[b-n73f0pdw3v],
+.btn-addnew[b-n73f0pdw3v] {
+    background: #28a745;
     color: #fff;
     border: none;
     padding: 4px 16px;
