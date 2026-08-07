@@ -1,4 +1,4 @@
-# FORCE REBUILD: 2026-08-07 08:42:05
+# FORCE REBUILD: 2026-08-07 09:50:40
 FROM mcr.microsoft.com/dotnet/aspnet:9.0
 WORKDIR /app
 COPY . .
@@ -6,6 +6,7 @@ EXPOSE 10000
 ENV ASPNETCORE_URLS=http://0.0.0.0:10000
 ENV DOTNET_USE_POLLING_FILE_WATCHER=false
 ENTRYPOINT ["dotnet", "SmallFootprintAPI.dll"]
+
 
 
 
