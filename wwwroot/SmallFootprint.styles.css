@@ -1535,6 +1535,7 @@ footer[b-n73f0pdw3v] {
             border-right: none;
         }
 }
+
 /* ===== SYNC CONTROLS - SINGLE LINE COMPACT ===== */
 .blog-sync-controls[b-n73f0pdw3v] {
     margin: 20px auto 30px auto;
@@ -1705,6 +1706,283 @@ footer[b-n73f0pdw3v] {
     {
         width: 100%;
         min-width: unset;
+    }
+}
+
+/* =========BOOKINGS CONTAINER ============== */
+.booking-container[b-n73f0pdw3v] {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* TOOLBAR */
+.toolbar[b-n73f0pdw3v] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn[b-n73f0pdw3v] {
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+.btn-primary[b-n73f0pdw3v] {
+    background: #0d6efd;
+    color: #fff;
+}
+
+    .btn-primary:hover[b-n73f0pdw3v] {
+        background: #0b5ed7;
+    }
+
+.btn-outline-secondary[b-n73f0pdw3v] {
+    background: transparent;
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+    .btn-outline-secondary:hover[b-n73f0pdw3v] {
+        background: #6c757d;
+        color: #fff;
+    }
+
+.btn-outline-success[b-n73f0pdw3v] {
+    background: transparent;
+    border-color: #198754;
+    color: #198754;
+}
+
+    .btn-outline-success:hover[b-n73f0pdw3v] {
+        background: #198754;
+        color: #fff;
+    }
+
+.btn-success[b-n73f0pdw3v] {
+    background: #198754;
+    color: #fff;
+}
+
+    .btn-success:hover[b-n73f0pdw3v] {
+        background: #157347;
+    }
+
+.btn-secondary[b-n73f0pdw3v] {
+    background: #6c757d;
+    color: #fff;
+}
+
+    .btn-secondary:hover[b-n73f0pdw3v] {
+        background: #5c636a;
+    }
+
+.btn-danger[b-n73f0pdw3v] {
+    background: #dc3545;
+    color: #fff;
+}
+
+    .btn-danger:hover[b-n73f0pdw3v] {
+        background: #bb2d3b;
+    }
+
+.btn-sm[b-n73f0pdw3v] {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* FILTER TABS */
+.filter-tabs[b-n73f0pdw3v] {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 0.5rem;
+}
+
+.tab[b-n73f0pdw3v] {
+    background: none;
+    border: none;
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.2s;
+    color: #6c757d;
+}
+
+    .tab:hover[b-n73f0pdw3v] {
+        background: #f1f3f5;
+    }
+
+    .tab.active[b-n73f0pdw3v] {
+        background: #0d6efd;
+        color: #fff;
+        font-weight: 600;
+    }
+
+/* CARD */
+.card[b-n73f0pdw3v] {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+/* FORM */
+.booking-form .form-group[b-n73f0pdw3v] {
+    margin-bottom: 0.8rem;
+}
+
+.booking-form label[b-n73f0pdw3v] {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.booking-form input[b-n73f0pdw3v], .booking-form textarea[b-n73f0pdw3v] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.booking-form textarea[b-n73f0pdw3v] {
+    height: 80px;
+    resize: vertical;
+}
+
+.form-actions[b-n73f0pdw3v] {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+/* LIST ITEMS */
+.booking-item[b-n73f0pdw3v] {
+    position: relative;
+    border-left: 4px solid #dee2e6;
+}
+
+    .booking-item.status-unverified[b-n73f0pdw3v] {
+        border-left-color: #ffc107;
+    }
+
+    .booking-item.status-confirmed[b-n73f0pdw3v] {
+        border-left-color: #198754;
+    }
+
+    .booking-item.status-cancelled[b-n73f0pdw3v] {
+        border-left-color: #dc3545;
+    }
+
+    .booking-item.past[b-n73f0pdw3v] {
+        opacity: 0.7;
+    }
+
+.booking-header[b-n73f0pdw3v] {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.booking-id[b-n73f0pdw3v] {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.badge[b-n73f0pdw3v] {
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.badge-unverified[b-n73f0pdw3v] {
+    background: #ffc107;
+    color: #000;
+}
+
+.badge-confirmed[b-n73f0pdw3v] {
+    background: #198754;
+    color: #fff;
+}
+
+.badge-cancelled[b-n73f0pdw3v] {
+    background: #dc3545;
+    color: #fff;
+}
+
+.booking-dates[b-n73f0pdw3v] {
+    font-size: 0.9rem;
+    color: #495057;
+    margin-left: auto;
+}
+
+.booking-body[b-n73f0pdw3v] {
+    margin: 0.3rem 0;
+}
+
+.booking-note[b-n73f0pdw3v] {
+    background: #f8f9fa;
+    padding: 0.4rem;
+    border-radius: 6px;
+    margin: 0.3rem 0;
+    word-break: break-word;
+}
+
+.booking-meta[b-n73f0pdw3v] {
+    font-size: 0.75rem;
+    color: #6c757d;
+    margin-top: 0.2rem;
+}
+
+.booking-actions[b-n73f0pdw3v] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+/* MOBILE ADJUSTMENTS */
+@@media (max-width: 576px) {
+    .toolbar[b-n73f0pdw3v] {
+        flex-direction: column;
+    }
+
+    .filter-tabs[b-n73f0pdw3v] {
+        flex-wrap: wrap;
+    }
+
+    .booking-header[b-n73f0pdw3v] {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .booking-dates[b-n73f0pdw3v] {
+        margin-left: 0;
+    }
+
+    .booking-actions[b-n73f0pdw3v] {
+        flex-direction: column;
+    }
+
+    .btn[b-n73f0pdw3v] {
+        width: 100%;
+        text-align: center;
     }
 }
 /* /Pages/UserComponent.razor.rz.scp.css */
