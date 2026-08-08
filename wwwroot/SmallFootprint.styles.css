@@ -1560,7 +1560,9 @@ footer[b-n73f0pdw3v] {
 
 .btn-refresh[b-n73f0pdw3v],
 .btn-commit[b-n73f0pdw3v],
-.btn-addnew[b-n73f0pdw3v] {
+.btn-addnew[b-n73f0pdw3v],
+.btn-edit[b-n73f0pdw3v],
+.btn-delete[b-n73f0pdw3v] {
     background: #28a745;
     color: #fff;
     border: none;
@@ -1575,6 +1577,9 @@ footer[b-n73f0pdw3v] {
     transition: all 0.2s;
 }
 
+.btn-delete[b-n73f0pdw3v] {
+    background: #ff1728;
+}
 .btn-commit[b-n73f0pdw3v] {
     background: #28a745;
 }
