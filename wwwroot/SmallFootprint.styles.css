@@ -1699,9 +1699,10 @@ footer[b-n73f0pdw3v] {
 
     .btn-refresh[b-n73f0pdw3v],
     .btn-commit[b-n73f0pdw3v], 
-    btn-addnew[b-n73f0pdw3v], 
-    btn-edit[b-n73f0pdw3v], 
-    btn-delete[b-n73f0pdw3v] {
+    .btn-addnew[b-n73f0pdw3v], 
+    .btn-edit[b-n73f0pdw3v], 
+    .btn-delete[b-n73f0pdw3v] 
+    {
         width: 100%;
         min-width: unset;
     }
